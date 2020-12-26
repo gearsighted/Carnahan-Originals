@@ -221,7 +221,6 @@ link-white:visited {
 a.navbar-brand,
 a.logo {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: white !important;
   font-size: 2rem;
   font-weight: 500;
   margin-top: 0;
@@ -241,7 +240,6 @@ li.nav-item a.nav-link {
   text-transform: uppsercase;
   font-size: 0.9rem;
   letter-spacing: 0.1rem;
-  color: white !important;
 }
 li.nav-item .btn {
   margin-top: 0.2rem;
@@ -253,13 +251,13 @@ li.nav-item .btn-white {
 }
 
 .cover {
-  background: #252629 url(../images/carnahan-banner-opacity.jpg) center;
+  background: #252629 url(../images/carnahan-banner-500.jpg) center;
   background-size: cover;
   min-height: 40rem;
   height: auto;
   border-radius: 0;
   width: 100%;
-  color: white;
+  color: black;
   padding-top: 1rem;
 }
 
