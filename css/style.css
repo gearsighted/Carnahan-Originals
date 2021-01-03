@@ -251,7 +251,9 @@ li.nav-item .btn-white {
 }
 
 .cover {
-  background: #252629 url(../images/carnahan-banner-500.jpg) center;
+  background: #252629
+    url(https://res.cloudinary.com/gearscloud/image/upload/v1609692026/Carnahan%20Originals/carnahan-banner-500_vdi0jh.jpg)
+    center;
   background-size: cover;
   min-height: 40rem;
   height: auto;
@@ -278,6 +280,56 @@ li.nav-item .btn-white {
   font-size: 2rem;
   margin-top: 0.75rem;
   letter-spacing: 0.25rem;
+}
+
+.about-me {
+  min-height: 40rem;
+  height: auto;
+  border-radius: 0;
+  width: 100%;
+  color: black;
+  padding-top: 1rem;
+}
+
+.about-me-container {
+  height: 100vh;
+  background: lightblue;
+}
+
+.about-me-inner {
+  height: 75vh;
+  width: 100vw;
+  margin-left: 3rem;
+  margin-top: 1rem;
+  background: lightslategray;
+}
+
+.about-me-heading {
+  background: lightseagreen;
+  padding: 0;
+  height: 4rem;
+  margin-top: 3rem;
+}
+
+.about-me-copy {
+  background: white;
+  height: 5rem;
+  padding: 0;
+  margin-top: 0rem;
+  font-size: large;
+  text-align: center;
+}
+
+.about-me-gallery {
+  background: lightseagreen;
+  height: 3rem;
+}
+
+.gallery-link {
+  background: white;
+  height: 3.5rem;
+  padding-top: 0;
+  margin-top: 0;
 }
 
 @media screen and (max-width: 768px) {
